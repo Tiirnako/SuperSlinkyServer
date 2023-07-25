@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #ecf0f1;
     background-color: #24252A;
 }
 
@@ -87,6 +88,17 @@ button:hover {
     padding: 35px 40px;
 }
 
-.contentText {
+.contentText, .mc-status {
     padding-top: 20px;
+}
+
+.mcLogo {
+    height: 100px;
+    width: 100px;
+    padding-right: 15px;
+}
+
+.mcAll {
+    display: flex;
+    justify-content: flex-start;
 }
